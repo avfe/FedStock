@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tech.fedorov.fedstock">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ReviewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fednotes.activities.MainActivity">
+
+        </activity>
+        <activity android:name=".fednotes.activities.NoteActivity">
+
+        </activity>
+        <activity android:name=".fedchatclient.MainActivity">
+
+        </activity>
+        <activity android:name=".fedchatclient.StartActivity">
+
+        </activity>
+        <activity android:name=".fedchatclient.ServerListActivity">
+
+        </activity>
+        <activity android:name=".fedquotes.MainActivity">
+
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${mapsApiKey}" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

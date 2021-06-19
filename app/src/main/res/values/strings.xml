@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FedStock</string>
+    <!-- FEDNOTES -->
+    <string name="search_notes">Search notes</string>
+    <string name="logo">FedNotes</string>
+    <string name="search_icon_description">Search icon</string>
+    <string name="empty" />
+    <string name="add_new_note">Add new note</string>
+    <string name="note_title">Note title</string>
+    <string name="type_note_here">Type note here...</string>
+    <string name="title_cant_be_empty">The note must contain a title.</string>
+    <string name="note_cant_be_empty">Note can\'t be empty.</string>
+    <string name="delete_note">Delete note</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you want to delete this note?</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <!-- FEDQUOTES -->
+    <string name="FinnhubToken">c1gdjqn48v6p69n8t8og</string>
+</resources>
